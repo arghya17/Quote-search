@@ -16,6 +16,3 @@ for row in soup.findAll("li"):
         continue
     s=s[a+1:b]
     quotes.append(s)
-d=DocumentArray()
-for row in quotes:
-    d.append(row)
